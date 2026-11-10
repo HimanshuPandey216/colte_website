@@ -31,3 +31,4 @@ dist-ssr
 
 # Local tools
 .tools
+.vercel
