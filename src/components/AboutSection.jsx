@@ -26,11 +26,11 @@ export default function AboutSection({ onOpenEnquiry }) {
             About COLTE Chennai
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-colte-navy-900 tracking-tight font-sans">
-            Transforming Learning into{' '}
-            <span className="text-colte-orange">Industry-Ready Skills</span>
+            Centre of Logistics Training Excellence{' '}
+            <span className="text-colte-orange">(COLTE)</span>
           </h2>
           <p className="mt-4 text-base sm:text-lg text-colte-text-secondary leading-relaxed">
-            Centre of Logistics Training Excellence (COLTE) is an advanced skill development initiative established in Chennai to bridge the digital divide and nurture world-class logistics talent.
+            Redington Limited, a global leader in the distribution of technology products and services, in collaboration with Logistics Sector Skill Council created a Centre of Excellence, COLTE as a part of Redington CSR initiatives with the aim of bridging the digital divide between technology and people.
           </p>
         </div>
 
@@ -69,17 +69,47 @@ export default function AboutSection({ onOpenEnquiry }) {
             >
               <div className="lg:col-span-7 space-y-5">
                 <div className="inline-block px-3 py-1 bg-colte-accent/10 text-colte-accent font-semibold text-xs rounded-md">
-                  Inaugurated January 2024
+                  Redington CSR &amp; LSC Initiative
                 </div>
                 <h3 className="text-2xl sm:text-3xl font-bold text-colte-navy-900 leading-snug">
-                  India’s Flagship Centre for High-Tech Logistics Competency
+                  Bridging the Digital Divide Between Technology and People
                 </h3>
                 <p className="text-colte-text-secondary text-sm sm:text-base leading-relaxed">
-                  Established in Chennai, COLTE was launched to address the rapid digital transformation of the Indian supply chain industry. With warehouses and freight nodes adopting robotics, IoT, and automated storage systems, COLTE serves as an experiential learning hub for students, job-seekers, and working professionals.
+                  Redington Limited, a global leader in the distribution of technology products and services, in collaboration with Logistics Sector Skill Council created a Centre of Excellence, COLTE (Centre of Logistics Training Excellence) as a part of Redington CSR initiatives with the aim of bridging the digital divide between technology and people.
                 </p>
-                <p className="text-colte-text-secondary text-sm sm:text-base leading-relaxed">
-                  Through hands-on training, virtual reality equipment simulators, and Qualification Pack (QP) aligned pedagogy, COLTE guarantees that every graduate enters the workforce with demonstrable operational competencies.
-                </p>
+
+                {/* 4 Core Pillars */}
+                <div className="space-y-3 pt-2">
+                  <span className="text-xs font-bold uppercase text-colte-navy-900 tracking-wider block">
+                    Key Objectives &amp; Mission Mandate:
+                  </span>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div className="p-3.5 rounded-xl bg-colte-light border border-gray-100 flex items-start space-x-2.5">
+                      <CheckCircle2 className="w-5 h-5 text-colte-orange flex-shrink-0 mt-0.5" />
+                      <span className="text-xs text-colte-navy-900 font-medium leading-relaxed">
+                        Provide a steady pipeline of skilled manpower to the Logistics Sector by skill training the youth.
+                      </span>
+                    </div>
+                    <div className="p-3.5 rounded-xl bg-colte-light border border-gray-100 flex items-start space-x-2.5">
+                      <CheckCircle2 className="w-5 h-5 text-colte-accent flex-shrink-0 mt-0.5" />
+                      <span className="text-xs text-colte-navy-900 font-medium leading-relaxed">
+                        Catering to skill upgradation with respect to Logistics functions under Industry 4.0 by upskilling and reskilling.
+                      </span>
+                    </div>
+                    <div className="p-3.5 rounded-xl bg-colte-light border border-gray-100 flex items-start space-x-2.5">
+                      <CheckCircle2 className="w-5 h-5 text-colte-orange flex-shrink-0 mt-0.5" />
+                      <span className="text-xs text-colte-navy-900 font-medium leading-relaxed">
+                        Setup a research-based ecosystem for problem statements encountered by Logistics Sector by integrating academic projects.
+                      </span>
+                    </div>
+                    <div className="p-3.5 rounded-xl bg-colte-light border border-gray-100 flex items-start space-x-2.5">
+                      <CheckCircle2 className="w-5 h-5 text-colte-accent flex-shrink-0 mt-0.5" />
+                      <span className="text-xs text-colte-navy-900 font-medium leading-relaxed">
+                        Be a one-stop solution for Logistics Sector for all Human Resource related developments.
+                      </span>
+                    </div>
+                  </div>
+                </div>
 
                 <div className="grid grid-cols-2 gap-4 pt-2">
                   <div className="p-4 rounded-xl bg-colte-light border border-gray-100">
@@ -103,7 +133,8 @@ export default function AboutSection({ onOpenEnquiry }) {
                   <div className="absolute inset-0 bg-gradient-to-t from-colte-navy-950/80 via-transparent to-transparent flex items-end p-6">
                     <div className="text-white">
                       <span className="text-xs font-bold text-colte-orange uppercase tracking-wider block">Chennai Centre</span>
-                      <p className="text-sm font-semibold">Khivraj Complex, Anna Salai, Nandanam</p>
+                      <p className="text-sm font-semibold">Guna Complex, 443, Anna Salai, Teynampet</p>
+                      <span className="text-xs text-gray-300">Landmark: Teynampet Metro</span>
                     </div>
                   </div>
                 </div>

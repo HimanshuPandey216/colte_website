@@ -45,7 +45,7 @@ export default function ChennaiCentre({ onOpenEnquiry }) {
               <div className="flex flex-wrap gap-4 pt-2">
                 <div className="flex items-center space-x-2 text-xs bg-white/10 px-3.5 py-2 rounded-xl text-gray-200">
                   <MapPin className="w-4 h-4 text-colte-orange" />
-                  <span>Nandanam, Anna Salai (Near Nandanam Metro)</span>
+                  <span>Guna Complex, 443, Anna Salai, Teynampet (Landmark: Teynampet Metro)</span>
                 </div>
                 <div className="flex items-center space-x-2 text-xs bg-white/10 px-3.5 py-2 rounded-xl text-gray-200">
                   <Sparkles className="w-4 h-4 text-colte-accent" />

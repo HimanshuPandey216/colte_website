@@ -2,10 +2,13 @@ import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import AboutSection from './components/AboutSection';
+import TrainingPathways from './components/TrainingPathways';
+import TeamSection from './components/TeamSection';
 import WhyColte from './components/WhyColte';
 import ChennaiCentre from './components/ChennaiCentre';
 import CoursesSection from './components/CoursesSection';
 import InteractiveLogistics from './components/InteractiveLogistics';
+import NotesOfAppreciation from './components/NotesOfAppreciation';
 import StudentJourney from './components/StudentJourney';
 import ImpactStats from './components/ImpactStats';
 import Testimonials from './components/Testimonials';
@@ -67,6 +70,12 @@ export default function App() {
         {/* About COLTE Section */}
         <AboutSection onOpenEnquiry={() => handleOpenEnquiry()} />
 
+        {/* Core Training Pathways (Short Term, Academia, Upskilling, Placement) */}
+        <TrainingPathways onOpenEnquiry={handleOpenEnquiry} />
+
+        {/* COLTE Chennai Team & Trainers Showcase */}
+        <TeamSection onOpenEnquiry={handleOpenEnquiry} />
+
         {/* Why COLTE Interactive Cards */}
         <WhyColte onOpenEnquiry={() => handleOpenEnquiry()} />
 
@@ -81,6 +90,9 @@ export default function App() {
 
         {/* Interactive Logistics Experience: "Explore the World of Logistics" */}
         <InteractiveLogistics onOpenEnquiry={handleOpenEnquiry} />
+
+        {/* Notes of Appreciation (Sathyabama & Lucas Indian Service Ltd) */}
+        <NotesOfAppreciation onOpenEnquiry={handleOpenEnquiry} />
 
         {/* Student Journey Animated Timeline */}
         <StudentJourney onOpenEnquiry={() => handleOpenEnquiry()} />

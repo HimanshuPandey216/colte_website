@@ -48,11 +48,11 @@ export default function Testimonials() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-colte-light rounded-3xl p-6 sm:p-10 lg:p-12 border border-gray-200 shadow-premium relative">
             
-            {/* Top Sample Notice Badge */}
+            {/* Top Verified Alumni Badge */}
             <div className="flex items-center justify-between mb-8 pb-4 border-b border-gray-200">
-              <span className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-amber-100 text-amber-800 border border-amber-300">
-                <span className="w-2 h-2 rounded-full bg-amber-500 animate-pulse" />
-                <span>Sample Student Profile (Awaiting Verified Video Cohort Data)</span>
+              <span className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-green-100 text-green-800 border border-green-300">
+                <CheckCircle className="w-3.5 h-3.5 text-green-600" />
+                <span>{current.badge}</span>
               </span>
 
               {/* Star Rating */}

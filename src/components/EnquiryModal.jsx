@@ -76,7 +76,7 @@ export default function EnquiryModal({ isOpen, onClose, initialCourse = '' }) {
               </p>
               <div className="p-4 bg-colte-light rounded-xl text-xs text-colte-text-secondary border border-gray-100">
                 <span>Admissions Office Hotline: </span>
-                <strong className="text-colte-navy-900">+91-98400 98233</strong>
+                <strong className="text-colte-navy-900">+91 78459 32665 / 78459 32138</strong>
               </div>
               <button
                 onClick={handleReset}

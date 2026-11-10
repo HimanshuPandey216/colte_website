@@ -90,9 +90,10 @@ export default function ContactSection() {
                     <div>
                       <span className="text-xs text-gray-400 font-medium block">Centre Location:</span>
                       <p className="text-sm font-semibold text-white leading-relaxed">
-                        Logistics Sector Skill Council, <br />
-                        480 A, 7th Floor, Khivraj Complex II, <br />
-                        Anna Salai, Nandanam, Chennai, Tamil Nadu - 600 035
+                        Center of Logistics Training for Excellence (COLTE), <br />
+                        Guna Complex, 443, Anna Salai, <br />
+                        Teynampet, Chennai, Tamil Nadu - 600018 <br />
+                        <span className="text-xs text-colte-orange font-semibold">(Landmark: Teynampet Metro)</span>
                       </p>
                     </div>
                   </div>
@@ -104,11 +105,11 @@ export default function ContactSection() {
                     </div>
                     <div>
                       <span className="text-xs text-gray-400 font-medium block">Admissions &amp; Enquiries:</span>
-                      <a href="tel:+919840098233" className="text-sm font-semibold text-white hover:text-colte-orange transition-colors block">
-                        +91-98400 98233
+                      <a href="tel:+917845932665" className="text-sm font-semibold text-white hover:text-colte-orange transition-colors block">
+                        +91 78459 32665
                       </a>
-                      <a href="tel:+914448514607" className="text-sm text-gray-300 hover:text-colte-orange transition-colors block">
-                        +91-44-48514607
+                      <a href="tel:+917845932138" className="text-sm text-gray-300 hover:text-colte-orange transition-colors block">
+                        +91 78459 32138
                       </a>
                     </div>
                   </div>
@@ -120,8 +121,8 @@ export default function ContactSection() {
                     </div>
                     <div>
                       <span className="text-xs text-gray-400 font-medium block">Official Email:</span>
-                      <a href="mailto:solutions@lsc-india.com" className="text-sm font-semibold text-white hover:text-colte-orange transition-colors">
-                        solutions@lsc-india.com
+                      <a href="mailto:coordinatar.chennai@lsc-india.com" className="text-sm font-semibold text-white hover:text-colte-orange transition-colors">
+                        coordinatar.chennai@lsc-india.com
                       </a>
                     </div>
                   </div>
@@ -143,7 +144,7 @@ export default function ContactSection() {
 
                 <div className="pt-2">
                   <a
-                    href="https://maps.google.com/?q=Khivraj+Complex+Anna+Salai+Nandanam+Chennai"
+                    href="https://maps.google.com/?q=Guna+Complex+443+Anna+Salai+Teynampet+Chennai+600018"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center space-x-2 text-xs font-bold text-colte-orange hover:text-orange-400 transition-colors"
@@ -159,7 +160,7 @@ export default function ContactSection() {
             <div className="rounded-3xl overflow-hidden border border-gray-200 shadow-md h-64 relative bg-gray-100">
               <iframe
                 title="COLTE Chennai Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.822839446416!2d80.23126757574768!3d13.021487213904975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267a070eb374d%3A0xe7a56113b28b783f!2sKhivraj%20Complex%202!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps?q=Guna+Complex,+443+Anna+Salai,+Teynampet,+Chennai+-+600018&output=embed"
                 className="w-full h-full border-0"
                 allowFullScreen=""
                 loading="lazy"

@@ -37,12 +37,12 @@ export default function Navbar({ onOpenEnquiry }) {
   const navLinks = [
     { name: 'Home', href: '#hero', id: 'hero' },
     { name: 'About', href: '#about', id: 'about' },
-    { name: 'Why COLTE', href: '#why-colte', id: 'why-colte' },
+    { name: 'Training Pathways', href: '#pathways', id: 'pathways' },
+    { name: 'Team & Trainers', href: '#team', id: 'team' },
     { name: 'Courses', href: '#courses', id: 'courses' },
     { name: 'Chennai Centre', href: '#centre', id: 'centre' },
-    { name: 'Logistics Hub', href: '#logistics-world', id: 'logistics-world' },
-    { name: 'Journey', href: '#journey', id: 'journey' },
-    { name: 'Gallery', href: '#gallery', id: 'gallery' },
+    { name: 'Appreciations', href: '#appreciations', id: 'appreciations' },
+    { name: 'Success Stories', href: '#testimonials', id: 'testimonials' },
     { name: 'Contact', href: '#contact', id: 'contact' },
   ];
 
@@ -60,12 +60,12 @@ export default function Navbar({ onOpenEnquiry }) {
             </span>
           </div>
           <div className="flex items-center space-x-4 text-gray-300">
-            <a href="tel:+919840098233" className="hover:text-colte-orange flex items-center transition-colors">
+            <a href="tel:+917845932665" className="hover:text-colte-orange flex items-center transition-colors">
               <PhoneCall className="w-3 h-3 mr-1 text-colte-orange" />
-              +91-98400 98233
+              +91 78459 32665 / 78459 32138
             </a>
             <span className="text-white/20">|</span>
-            <span className="text-gray-400">Nandanam, Anna Salai, Chennai</span>
+            <span className="text-gray-400">Guna Complex, Teynampet (Metro), Chennai</span>
           </div>
         </div>
       </div>

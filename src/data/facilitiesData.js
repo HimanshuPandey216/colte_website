@@ -38,7 +38,12 @@ export const centreInfo = {
   tagline: 'Bridging the Talent Gap in Modern Logistics & Supply Chain',
   established: 'January 2024',
   initiativeBy: 'Redington Foundation (CSR Arm of Redington Ltd) & Logistics Sector Skill Council (LSC)',
-  address: 'Logistics Sector Skill Council, 480 A, 7th Floor, Khivraj Complex II, Anna Salai, Nandanam, Chennai, Tamil Nadu - 600 035',
-  landmark: 'Near Nandanam Metro Station / Khivraj Complex on Anna Salai',
+  address: 'Guna Complex, 443, Anna Salai, Teynampet, Chennai, Tamil Nadu - 600018',
+  landmark: 'Teynampet Metro',
+  phone1: '+91 78459 32665',
+  phone2: '+91 78459 32138',
+  phoneDisplay: '+91 78459 32665 / 78459 32138',
+  email: 'coordinatar.chennai@lsc-india.com',
   strategicContext: 'Strategically located in Chennai—the automotive, electronic hardware, and container shipping gateway of South India—allowing students direct access to major industrial corridors (Sriperumbudur, Oragadam, Ennore, and Chennai Port).'
 };
+
